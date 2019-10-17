@@ -1,2 +1,3 @@
-# mirrobozik.github.io
-Web Site Content
+# Miro Božík #
+
+..page is under reconstruction
