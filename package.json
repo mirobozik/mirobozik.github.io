@@ -4,7 +4,6 @@
   "description": "..page is under reconstruction",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "styles": "node-sass --include-path scss styles.scss styles.min.css --output-style compressed"
   },
   "repository": {
@@ -18,6 +17,7 @@
   },
   "homepage": "https://github.com/mirrobozik/mirrobozik.github.io#readme",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
     "bootstrap": "^4.3.1",
     "node-sass": "^4.12.0"
   }
