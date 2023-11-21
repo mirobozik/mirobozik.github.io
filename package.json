@@ -1,24 +1,20 @@
 {
-  "name": "mirrobozik.github.io",
+  "name": "mirobozik.github.io",
   "version": "1.0.0",
   "description": "..page is under reconstruction",
   "main": "index.html",
   "scripts": {
-    "styles": "node-sass --include-path scss styles.scss styles.min.css --output-style compressed"
+    "css:watch": "npx tailwindcss -i index.css -c tailwind.config.js -o styles.css --watch",
+    "css": "npx tailwindcss -i index.css -c tailwind.config.js -o styles.css --minify"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mirrobozik/mirrobozik.github.io.git"
+    "url": "git+https://github.com/mirobozik/mirobozik.github.io.git"
   },
   "author": "Miroslav Božík",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mirrobozik/mirrobozik.github.io/issues"
-  },
-  "homepage": "https://github.com/mirrobozik/mirrobozik.github.io#readme",
-  "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.11.2",
-    "bootstrap": "^4.3.1",
-    "node-sass": "^4.12.0"
+  "homepage": "https://github.com/mirobozik/mirobozik.github.io#readme",
+  "dependencies": {
+    "tailwindcss": "^3.3.5"
   }
 }

@@ -1,3 +1,9 @@
-# Miro Božík #
+# Web
 
-..page is under reconstruction
+Just stupid simple web..
+
+## Build
+
+```bash
+npm run css
+```
